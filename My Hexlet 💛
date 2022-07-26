@@ -1,0 +1,6 @@
+27 задание:
+const capitalize = (text) => `${text[0].toUpperCase()}${text.slice(1)}`;
+
+28 задание:
+const isInternationalPhone = (number) => number.charAt(0) == '+';
+
