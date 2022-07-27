@@ -8,5 +8,6 @@ const getHiddenCard = (card, starsCount = 4) => {
 const capitalize = (text) => `${text[0].toUpperCase()}${text.slice(1)}`;
 
 28 task:
-const isInternationalPhone = (number) => number.charAt(0) == '+';
+28.1 const isInternationalPhone = (number) => number.charAt(0) == '+';
+28.2 const isInternationalPhone = (phone) => phone[0] === '+';
 
