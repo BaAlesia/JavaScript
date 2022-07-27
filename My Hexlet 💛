@@ -18,3 +18,8 @@ const capitalize = (text) => `${text[0].toUpperCase()}${text.slice(1)}`;
   return result;
 }; // решение учителя
 
+30 task: Результат логических операций
+const getLetter = (text, position) => text[position - 1] || '';
+
+
+
