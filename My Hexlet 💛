@@ -1,6 +1,12 @@
-27 задание:
+26 task:
+const getHiddenCard = (card, starsCount = 4) => {
+  const visibleDigitsLine = card.slice(12);
+ return `${'*'.repeat(starsCount)}${visibleDigitsLine}`;
+};
+
+27 task:
 const capitalize = (text) => `${text[0].toUpperCase()}${text.slice(1)}`;
 
-28 задание:
+28 task:
 const isInternationalPhone = (number) => number.charAt(0) == '+';
 
