@@ -11,3 +11,10 @@ const capitalize = (text) => `${text[0].toUpperCase()}${text.slice(1)}`;
 28.1 const isInternationalPhone = (number) => number.charAt(0) == '+';
 28.2 const isInternationalPhone = (phone) => phone[0] === '+';
 
+29 task: Логические операторы
+29.1 const isLeapYear = (year) => year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0); //моё решение
+29.2 const isLeapYear = (year) => {
+  const result = year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
+  return result;
+}; // решение учителя
+
